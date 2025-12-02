@@ -1,5 +1,3 @@
----
-
 # 📄 **Personal Portfolio Website by DyexaHub**
 
 A modern, scalable, and modular personal portfolio website designed, developed, and optimized to showcase professional experience, technical skill sets, and demonstrative UI components.
