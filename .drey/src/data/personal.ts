@@ -13,12 +13,12 @@ export const personalInfo = {
   resume: "/assets/resume/Dyexa_Rahardika_CV.pdf",
 
   social: {
-    github: "https://github.com/dyexarahardika",
-    linkedin: "https://linkedin.com/in/dyexarahardika",
-    twitter: "https://twitter.com/dyexarahardika",
-    instagram: "https://instagram.com/dyexaa",
-    discord: "https://discord.com/users/dyexarahardika",
-    email: "mailto:2513028@students.universitasmulia.ac.id",
+    github: "https://github.com/dyexahub",
+    linkedin: "https://linkedin.com/in/",
+    twitter: "https://twitter.com/",
+    instagram: "https://instagram.com/",
+    discord: "https://discord.com/users/",
+    email: "mailto:@yourstudent.email.ac.id",
   },
 
   stats: {
@@ -55,3 +55,4 @@ export const personalInfo = {
   ],
 
 };
+
