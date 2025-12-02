@@ -1,189 +1,231 @@
-# **Personal Portfolio Website — DyexaHub**
+---
 
-A modern, fully responsive personal portfolio website built with a clean architectural structure, modular component design, and a contemporary frontend workflow.
-This repository serves as the public-facing version of my personal website and showcases selected UI components, code samples, and architectural patterns that reflect my development style, presentation standards, and approach to frontend engineering.
+# 📄 **Personal Portfolio Website by DyexaHub**
 
-> **GitHub Profile:** [https://github.com/DyexaHub](https://github.com/DyexaHub)
-> **Repository:** *This repo contains the public-safe version of my personal portfolio project.*
+# **V.2.0.1**
+
+A modern, scalable, and modular personal portfolio website designed, developed, and optimized to showcase professional experience, technical skill sets, and demonstrative UI components.
+This repository is published under the **MIT License**.
 
 ---
 
-## **📌 Overview**
+## 📌 **Overview**
 
-This project is developed using a modern TypeScript-based environment with Vite, React, Tailwind CSS, and a clean folder modularization.
-The structure prioritizes maintainability, scalability, and clarity—making the codebase easy to expand as the portfolio grows.
+This repository contains the complete source code of my personal portfolio website — a platform designed to present my work, professional background, and technical capabilities. The project is structured with clarity and maintainability in mind, utilizing a component-driven architecture and modern build technologies such as **React**, **TypeScript**, **Vite**, **TailwindCSS**, and modular configurations for enhanced scalability.
 
-The portfolio includes:
-
-* Reusable React components
-* Tailwind-powered styling system
-* Modular hooks
-* Utility functions
-* Optimized assets & static files
-* Fully responsive layout
-* Future-ready architecture for additional sections and features
-
-Everything is structured to reflect practical, production-oriented development standards.
+The goal of this project is to deliver a highly responsive, visually clean, and performance-optimized personal site that reflects my experience, ongoing learning journey, and coding standards.
 
 ---
 
-## **🛠️ Technology Stack**
+## 🧩 **Key Features**
 
-### **Frontend**
+### **Frontend & UI**
 
-* **React (TypeScript)** — Component-driven UI development
-* **Vite** — Ultra-fast build tool for development & production
-* **Tailwind CSS** — Utility-first styling, theme consistency
-* **PostCSS** — Additional CSS processing pipeline
-* **ESLint** — Code quality and linting rules
-* **Prettier (optional)** — Consistent formatting (if installed locally)
+* Built with **React + TypeScript** for type safety and predictable component behaviors.
+* Modular directory structure (`components/`, `hooks/`, `utils/`, `styles/`) to support future expansion.
+* Fully responsive design optimized for mobile, tablet, and desktop screens.
+* Styled using **TailwindCSS** with structured configuration and utility-first styling.
 
-### **Language**
+### **Performance**
 
-* **TypeScript** with strict configuration for improved resilience and reliability
+* Lightning-fast build system using **Vite**.
+* Image optimization & lazy loading where applicable.
+* Lightweight bundle output with minimized scripts and assets.
+
+### **Development Workflow**
+
+* ESLint-based linting for code consistency.
+* EditorConfig and TSConfig for uniform formatting.
+* Pre-configured scripts for development, preview, and production builds.
 
 ---
 
-## **📁 Project Structure**
-
-Below is a high-level breakdown of the folder structure visible in this public repository:
+## 📂 **Project Structure**
 
 ```
-├── dist/                # Production build output (optional)
-├── public/              # Static public assets
-├── src/
-│   ├── assets/          # Images, icons, and static content
-│   ├── components/      # Modular UI components
-│   ├── data/            # Static or dynamic data used for rendering content
-│   ├── hooks/           # Reusable React hooks
-│   ├── styles/          # Global styling, utilities, or design tokens
-│   ├── utils/           # Helper functions & utilities
-│   ├── App.tsx          # Main application wrapper
-│   └── main.tsx         # Application entry point
-├── index.html           # Root HTML file
-├── package.json         # Dependencies & scripts
-├── tailwind.config.js   # TailwindCSS configuration
-├── tsconfig.json        # TypeScript configuration
-└── vite.config.ts       # Vite build configuration
+src/
+│── assets/
+│── components/
+│── data/
+│── hooks/
+│── styles/
+│── utils/
+│── App.tsx
+│── main.tsx
+public/
+dist/
+.gitignore
+eslint.config.js
+index.html
+package.json
+package-lock.json
+postcss.config.js
+tailwind.config.js
+tsconfig.json
+tsconfig.app.json
+tsconfig.node.json
+vite.config.ts
+README.md
 ```
 
-This structure ensures clean separation between logic, UI, styling, and configuration files.
+Each folder within `src/` serves a specific purpose, ensuring separation of concerns and long-term maintainability.
 
 ---
 
-## **⚠️ Privacy & Security Notice**
+## 🔐 **Security & Privacy Notes**
 
-To maintain security, privacy, and responsible distribution of code, **not all components from the original local project are included in this public repository**.
-Some files are intentionally *excluded* because they may contain:
+This repository intentionally does **not** include certain components or configuration files due to privacy, security, and personal data considerations. Some items are **strictly prohibited** from being uploaded publicly, such as:
 
-* Sensitive information
-* Personal data
-* Local environment configurations
-* System-specific metadata
-* Integration keys or confidential setup instructions
+### ❌ **Sensitive Environment Variables**
 
-Examples of prohibited or restricted files include (but are not limited to):
+* `.env`
+* `.env.production`
+* `.env.local`
 
-### ❌ **Absolutely not included:**
+These files often contain:
 
-* `.env`, `.env.local`, `.env.production`, etc.
-* API keys or private tokens
-* Machine-specific configuration files
-* Personally identifiable information (PII)
-* Backend integration or proprietary modules
-* Any file containing credentials, secrets, or private URLs
+* API keys
+* Authentication tokens
+* Private service credentials
+* Backend endpoints
 
-These items are **strictly omitted** to comply with best practices, platform security guidelines, and responsible open-source standards.
+**These will never be published in this repository.**
 
-### ❗ Allowed but carefully filtered:
+### ❌ **Local Machine & Personal Workspace Files**
 
-Some workspace configuration files (e.g., `.vscode`) are *excluded by design* to avoid leaking personal editor settings or internal development environment structure.
+* `settings.json`
+* `extensions.json`
+* `.vscode/` configurations
+* System-specific files (`.DS_Store`, `Thumbs.db`, etc.)
 
----
+These may reveal personal workspace configurations or system-level paths and are therefore excluded from the repository.
 
-## **🚀 Features of This Portfolio**
+### ❌ **Backend Credentials or Private Internal Tools**
 
-### **1. Professional Layout & Modern Design**
+Any internal scripts, identity-linked resources, or non-public assets have been intentionally omitted.
 
-Crafted to express personal identity, technical background, and career positioning.
-
-### **2. Reusable Component Architecture**
-
-Components are modular, isolated, and optimized for future scalability.
-
-### **3. Strong Code Quality**
-
-Strict TypeScript typing, linting rules, and semantic structuring.
-
-### **4. Performance-Oriented**
-
-Fast loading, highly responsive, and optimized build pipeline thanks to Vite.
-
-### **5. Developer-Friendly**
-
-Consistent folder structure and naming conventions for maintainability and readability.
-
-### **6. Public-Safe Repository**
-
-Sanitized from private data and sensitive information while still showcasing technical capability.
+All omitted files are replaced with safe public alternatives or mock placeholders where necessary to maintain project functionality for community viewing.
 
 ---
 
-## **📦 Installation & Development Guide**
+## 📦 **Technologies Used**
 
-If you want to run or explore the project locally:
+| Category         | Technology            |
+| ---------------- | --------------------- |
+| Framework        | React + TypeScript    |
+| Build Tool       | Vite                  |
+| Styling          | TailwindCSS, PostCSS  |
+| Language         | TypeScript            |
+| Package Manager  | npm                   |
+| Linting          | ESLint                |
+| OS Compatibility | Cross-platform        |
 
-### **Clone the repository**
+---
 
-```bash
+## 🛠️ **Installation & Setup**
+
+Clone the repository:
+
+```sh
 git clone https://github.com/DyexaHub/<your-repo-name>.git
 cd <your-repo-name>
 ```
 
-### **Install dependencies**
+Install dependencies:
 
-```bash
+```sh
 npm install
 ```
 
-### **Start development server**
+Run development server:
 
-```bash
+```sh
 npm run dev
 ```
 
-### **Build for production**
+Build for production:
 
-```bash
+```sh
 npm run build
+```
+
+Preview production build:
+
+```sh
+npm run preview
 ```
 
 ---
 
-## **🧩 Future Enhancements**
+## 🧭 **Project Philosophy**
 
-This portfolio is designed for continuous iteration. Planned additions may include:
+This portfolio is developed with the following core principles:
 
-* Enhanced animations
-* Additional pages (Blog, Services, or Projects Showcase)
-* Improved UI transitions using libraries like Framer Motion
-* Dark mode toggle
-* Backend integration for newsletters or contact forms (private environment required)
-* More advanced modular utilities and components
-
----
-
-## **📜 License**
-
-This project is provided under an open and permissive license
-You are free to explore and learn from the architecture and code, but **redistribution of any omitted or private files is not permitted**.
+* **Maintainability:** Code structured for long-term scaling.
+* **Clarity:** Modular, readable architecture.
+* **Performance:** Fast, minimal, and optimized front-end.
+* **Professionalism:** A representation of my real technical capabilities.
+* **Security:** No sensitive personal or system-related files are uploaded.
 
 ---
 
-## **📘 Closing Statement**
+## 🌍 **Deployment**
 
-This repository represents the public-facing professional work of **DyexaHub**, showcasing my approach to frontend engineering, UI structure, and practical software design.
-It is intended not only as a portfolio but also as an example of clean, modern, and carefully architected code.
-Sensitive or private components have been responsibly removed to ensure the safety and integrity of personal information, while still giving an accurate representation of my development quality.
+This portfolio can be deployed seamlessly using platforms such as:
 
-If you wish to connect, collaborate, or explore more of my work, feel free to visit my GitHub profile or reach out through my professional links.
+* **Vercel**
+* **Netlify**
+* **GitHub Pages**
+* **Cloudflare Pages**
+
+The current published version may be hosted publicly for professional viewing.
+
+---
+
+## 📜 **License — MIT**
+
+This project is licensed under the **MIT License**, allowing open usage, modification, and distribution while maintaining authorship attribution.
+
+```
+MIT License
+
+Copyright (c) 2025 DyexaHub
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software...
+```
+
+(Full license included in repository.)
+
+---
+
+## 🤝 **Contributions**
+
+This repository primarily serves as my personal portfolio.
+However, feedback, suggestions, and improvement proposals are always welcome.
+For contributions, please open:
+
+* An Issue, or
+* A Pull Request with clear documentation.
+
+---
+
+## 📬 **Contact**
+
+For inquiries, professional opportunities, or collaboration:
+
+**GitHub:** [https://github.com/DyexaHub](https://github.com/DyexaHub)
+(Additional contact details can be added if you choose.)
+
+---
+
+## 🔚 **Closing Statement**
+
+This portfolio is a continuous work in progress, representing my direction as a developer, consultant, and lifelong learner. The codebase will evolve over time as I refine my skills and expand my experience.
+
+Thank you for visiting, reviewing, or contributing.
+
+---
